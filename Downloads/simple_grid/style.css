@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: whitesmoke; */
+}
+body{
+    background-color: whitesmoke;
+}
+
+.main-container{
+    /* background-color: yellow ; */
+    scale: .75;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    background-color: white;
+    border-radius: 25px;
+}
+.header{
+    background-color: white;
+    height: 50vh;
+    width: 100vw;
+}
+.subscription{
+    /* background-color: blue; */
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    width: 100vw;
+    /* border-radius: 20px; */
+  
+
+}
+
+.monthly{
+    background-color: teal;
+    height: 40vh;
+}
+.why-us{
+    background-color: turquoise;
+    height: 40vh; 
+}
